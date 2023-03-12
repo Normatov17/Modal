@@ -51,11 +51,13 @@ body{
     top: 50%;
     left: 50%;
     width: 100%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -44%);
     background-color: #f4f4f4;
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
     z-index: 100;
+    margin-left: 2px;
+    margin-right: 5px;
 }
 
 .modal-header {
@@ -88,4 +90,8 @@ body{
 
 p {
     user-select: none;
+}
+
+.mbg{
+    
 }
