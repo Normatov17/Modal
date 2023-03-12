@@ -4,10 +4,42 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Goolge font-family -->
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+        <!-- Google font-avesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="./styles.css">
         <title>Modal creat</title>
     </head>
     <body>
+        <div class="wrapper">
+            <button class="show-btn btn" id="show-btn">Show Modal</button>
+
+            <!-- Modal -->
+            <div class="modal hidden" id="modal">
+                <!-- Modal header -->
+                <div class="modal-header">
+                    <h3>I Love BMW ❤️</h3>
+                    <button class="btn close-btn" id="close-btn">
+                        <i class="fas fa-close"></i>
+                    </button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <h2 class="modal-title">BMW CAR</h2>
+                    <p>
+                        We use cookies (including third-party cookies), to provide you with the best possible online experience and to tailor content to your interests. By clicking on "Accept all" you agree to the saving and reading of information on your end device. You also agree to the further processing of the collected and read personal data in addition to the possible transfer to countries outside of the EU, for example the US.
+                        For detailed information on the use and management of cookies, please click on "Customise". By clicking on "Reject", you reject the use of cookies that require consent.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Overley -->
+        <div class="overley hidden" id="overley"></div>
+
         <script src="./app.js"></script>
     </body>
-</html>
+</html> 
